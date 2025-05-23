@@ -1,5 +1,14 @@
 a:hover {
-    color: #4d40e8 !important;
+  color: #4d40e8 !important;
+}
+#contact-us a {
+  text-decoration: none;
+}
+.myicons {
+  margin-top: -2px;
+}
+.whatsappLink {
+  color: #14b851 !important;
 }
 
 
