@@ -11,7 +11,15 @@ a:hover {
   color: #14b851 !important;
 }
 #map {
-  max-width: 95%;
+  max-width: 90%;
+}
+.title1 {
+  font-weight: 900 !important;
+  --font-size: 2.5625rem !important;
+}
+#amenities {
+  padding-top: 60px;
+  color: #0a3266 !important; /* 24223e */
 }
 
 
