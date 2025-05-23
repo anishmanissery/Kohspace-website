@@ -10,6 +10,9 @@ a:hover {
 .whatsappLink {
   color: #14b851 !important;
 }
+#map {
+  max-width: 95%;
+}
 
 
 /* Ticker tape 
