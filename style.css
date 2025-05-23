@@ -1,0 +1,33 @@
+a:hover {
+    color: #4d40e8 !important;
+}
+
+
+/* Ticker tape 
+-------------------------*/
+.ticker-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #031226; /* optional background */
+}
+
+.ticker {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 40s linear infinite;
+}
+
+.ticker img {
+  width: 348px; /* adjust to your needs */
+  height: auto;
+  margin-right: 10px; /* spacing between images */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
