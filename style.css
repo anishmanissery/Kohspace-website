@@ -19,7 +19,10 @@ a:hover {
 }
 #amenities {
   padding-top: 60px;
-  color: #0a3266 !important; /* 24223e */
+  color: #24223e !important;
+}
+.amenitiesDescription {
+  color: #777;
 }
 
 
@@ -28,7 +31,7 @@ a:hover {
 .ticker-wrapper {
   width: 100%;
   overflow: hidden;
-  background: #031226; /* optional background */
+  background: #031226;
 }
 
 .ticker {
@@ -38,7 +41,7 @@ a:hover {
 }
 
 .ticker img {
-  width: 348px; /* adjust to your needs */
+  width: 348px;
   height: auto;
   margin-right: 10px; /* spacing between images */
 }
