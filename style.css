@@ -33,6 +33,10 @@ footer {
 .footerLightText {
   color: rgba(255, 255, 255, 0.24);
 }
+#videosContainer {
+  background: #031226;
+  margin-bottom: -5px;
+}
 
 
 /* Ticker tape 
