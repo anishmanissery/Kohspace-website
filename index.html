@@ -22,6 +22,7 @@
     <link rel="icon" type="image/png" sizes="180x180" href="images/favicon-180.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -74,14 +75,14 @@
     <!-- Amenities -->
     <div id="amenities" class="container-fluid pb-5 bg-light">
         <div class="row">
-            <div class="col-sm text-center">
+            <div class="col-sm text-center" data-aos="fade">
                 <h2 class="title1">Amenities</h2>
                 <p class="text-center amenitiesDescription">We provide a range of amenities to ensure a comfortable and productive work environment.</p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-router-fill" viewBox="0 0 16 16">
                     <path d="M5.525 3.025a3.5 3.5 0 0 1 4.95 0 .5.5 0 1 0 .707-.707 4.5 4.5 0 0 0-6.364 0 .5.5 0 0 0 .707.707"/>
                     <path d="M6.94 4.44a1.5 1.5 0 0 1 2.12 0 .5.5 0 0 0 .708-.708 2.5 2.5 0 0 0-3.536 0 .5.5 0 0 0 .707.707Z"/>
@@ -90,13 +91,13 @@
                 </svg>
                 <h5>High-Speed Internet</h5>
             </div>
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-people-fill" viewBox="0 0 16 16">
                     <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
                 </svg>
                 <h5>Meeting Room</h5>
             </div>
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-bookshelf" viewBox="0 0 16 16">
                     <path d="M2.5 0a.5.5 0 0 1 .5.5V2h10V.5a.5.5 0 0 1 1 0v15a.5.5 0 0 1-1 0V15H3v.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 .5-.5M3 14h10v-3H3zm0-4h10V7H3zm0-4h10V3H3z"/>
                 </svg>
@@ -104,21 +105,21 @@
             </div>            
         </div>
         <div class="row">
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-battery-full" viewBox="0 0 16 16">
                     <path d="M2 6h10v4H2z"/>
                     <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
                 </svg>
                 <h5>Power Backup</h5>
             </div>
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-webcam-fill" viewBox="0 0 16 16">
                     <path d="M6.644 11.094a.5.5 0 0 1 .356-.15h2a.5.5 0 0 1 .356.15c.175.177.39.347.603.496a7 7 0 0 0 .752.456l.01.006h.003A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.224-.947l.002-.001.01-.006a4 4 0 0 0 .214-.116 8 8 0 0 0 .539-.34c.214-.15.428-.319.603-.496M7 6.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0"/>
                     <path d="M2 3a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm6 1.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4M12.5 7a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1"/>
                 </svg>
                 <h5>HD CCTV Surveillance</h5>
             </div>
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-hdmi-fill" viewBox="0 0 16 16">
                     <path d="M1 5a1 1 0 0 0-1 1v3.293c0 .39.317.707.707.707.188 0 .368.075.5.207l.5.5a1 1 0 0 0 .707.293h11.172a1 1 0 0 0 .707-.293l.5-.5a.7.7 0 0 1 .5-.207c.39 0 .707-.317.707-.707V6a1 1 0 0 0-1-1zm1.5 2h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1 0-1"/>
                 </svg>
@@ -126,19 +127,19 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-car-front-fill" viewBox="0 0 16 16">
                     <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
                 </svg>
                 <h5>Parking Area</h5>
             </div>
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-currency-rupee" viewBox="0 0 16 16">
                     <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
                 </svg>
                 <h5>Budget Friendly</h5>
             </div>
-            <div class="col-sm text-center mt-4">
+            <div class="col-sm text-center mt-4" data-aos="fade-up">
                 <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#0a3266" class="bi bi-lock-fill" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 0a4 4 0 0 1 4 4v2.05a2.5 2.5 0 0 1 2 2.45v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4m0 1a3 3 0 0 0-3 3v2h6V4a3 3 0 0 0-3-3"/>
                 </svg>
@@ -154,22 +155,24 @@
         <div class="row">
 
             <!-- Location -->
-            <div id="location" class="col-sm mb-3">
+            <div id="location" class="col-sm mb-3" data-aos="fade">
                 <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.7645786872727!2d75.77005087402411!3d11.278708449730303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65fe5abe19903%3A0x62ddedcc441c4d72!2sKohspace%20Co-working%20Space!5e0!3m2!1sen!2sin!4v1748005602535!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <!-- Contact -->
             <div id="contact-us" class="col-sm mt-5 ms-3">
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                    </svg>
-                    3rd Floor, K.S.H.B Complex, East Hill Rd,
+                <div data-aos="fade-left">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                        3rd Floor, K.S.H.B Complex, East Hill Rd,
+                    </div>
+                    <div class="mt-1 ps-4">Vikas Nagar Housing Colony, Vikas Nagar,</div>
+                    <div class="mt-1 ps-4">West Hill, Kozhikode, Kerala 673011</div>
                 </div>
-                <div class="mt-1 ps-4">Vikas Nagar Housing Colony, Vikas Nagar,</div>
-                <div class="mt-1 ps-4">West Hill, Kozhikode, Kerala 673011</div>
 
-                <div class="mt-4">
+                <div class="mt-4" data-aos="fade-left">
                     <a href="tel:+919778500864">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0D6EFD" class="bi bi-telephone-fill myicons me-1" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
@@ -177,7 +180,7 @@
                         +91-9778 500 864
                     </a>
                 </div>
-                <div class="mt-3 whatsappLink mb-5">
+                <div class="mt-3 whatsappLink mb-5" data-aos="fade-left">
                     <a href="https://wa.me/9778500864">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#25d366" class="bi bi-whatsapp myicons me-1" viewBox="0 0 16 16">
                             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
@@ -199,6 +202,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
