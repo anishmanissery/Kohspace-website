@@ -50,7 +50,7 @@ footer {
 }
 
 .ticker img {
-  width: 348px;
+  width: auto; /* 348 */
   height: auto;
   margin-right: 10px; /* spacing between images */
 }
