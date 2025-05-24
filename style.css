@@ -46,7 +46,7 @@ footer {
 .ticker {
   display: flex;
   width: max-content;
-  animation: scroll-left 40s linear infinite;
+  animation: scroll-left 33s linear infinite;
 }
 
 .ticker img {
